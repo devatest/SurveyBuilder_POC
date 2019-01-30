@@ -1,0 +1,5 @@
+com\face\pageFactory\SalesForceMenuPage.class
+com\testRunners\RunnerTest.class
+com\face\stepDefinitions\SalesForceMenu.class
+com\face\pageFactory\SalesForceLoginPage.class
+com\face\stepDefinitions\SalesForce.class
