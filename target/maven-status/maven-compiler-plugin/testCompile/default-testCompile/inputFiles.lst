@@ -1,5 +1,7 @@
-D:\SalesForcePOC\JVM_Cucumber_Maven_SalesForce\src\test\java\com\face\pageFactory\SalesForceMenuPage.java
-D:\SalesForcePOC\JVM_Cucumber_Maven_SalesForce\src\test\java\com\face\stepDefinitions\SalesForceMenu.java
-D:\SalesForcePOC\JVM_Cucumber_Maven_SalesForce\src\test\java\com\testRunners\RunnerTest.java
-D:\SalesForcePOC\JVM_Cucumber_Maven_SalesForce\src\test\java\com\face\stepDefinitions\SalesForce.java
-D:\SalesForcePOC\JVM_Cucumber_Maven_SalesForce\src\test\java\com\face\pageFactory\SalesForceLoginPage.java
+D:\Automation\Git\JVM_Cucumber_Maven_SalesForce\src\test\java\com\face\pageFactory\SalesForceMenuPage.java
+D:\Automation\Git\JVM_Cucumber_Maven_SalesForce\src\test\java\com\testRunners\RunnerTest.java
+D:\Automation\Git\JVM_Cucumber_Maven_SalesForce\src\test\java\com\face\stepDefinitions\SalesForce.java
+D:\Automation\Git\JVM_Cucumber_Maven_SalesForce\src\test\java\com\face\stepDefinitions\SalesForceMenu.java
+D:\Automation\Git\JVM_Cucumber_Maven_SalesForce\src\test\java\com\face\stepDefinitions\ManageQuestion.java
+D:\Automation\Git\JVM_Cucumber_Maven_SalesForce\src\test\java\com\face\pageFactory\SalesForceLoginPage.java
+D:\Automation\Git\JVM_Cucumber_Maven_SalesForce\src\test\java\com\face\pageFactory\ManageQuestionPage.java

@@ -1,5 +1,7 @@
-com\face\pageFactory\SalesForceMenuPage.class
 com\testRunners\RunnerTest.class
-com\face\stepDefinitions\SalesForceMenu.class
+com\face\stepDefinitions\ManageQuestion.class
+com\face\pageFactory\ManageQuestionPage.class
 com\face\pageFactory\SalesForceLoginPage.class
 com\face\stepDefinitions\SalesForce.class
+com\face\pageFactory\SalesForceMenuPage.class
+com\face\stepDefinitions\SalesForceMenu.class

@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 		strict = true,
 		features = {"src/test/java/com/face/features"},
 		glue = {"core.Hooks", "com.face.stepDefinitions"},
-		tags = {"@Test"},
+		tags = {"@ManageQuestion,@ManageSurvey"},
 		monochrome = true,
 		format = {
 				"pretty",

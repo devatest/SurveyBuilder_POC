@@ -3,6 +3,7 @@ package core.generic;
 import java.util.Hashtable;
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -713,7 +714,16 @@ public class WrapperFunctions
         
         
 	}
-	   
+	 
+	public static void waitForElement(int timeout) {
+		  try {
+		   TimeUnit.SECONDS.sleep(timeout);
+		  } catch (Exception e) {
+		   e.printStackTrace();
+		   // System.out.println("print ur message here");
+		  }
+	}
+	
 	public void selectEsctDrpdown(By locator,int DropDownNumber) throws InterruptedException {
 		//checkElementExistence(locator, 10);
 		 waitForElementToBeClickable(locator, 10);
@@ -728,6 +738,9 @@ public class WrapperFunctions
 		  }
 		
 	}
-		
+	
+	
+	
+	
 }
 

@@ -1,24 +1,13 @@
 Feature: SalesForceLogin
-@Test
-Scenario Outline: Login
-	
-	Given Enter SalesForce UserName <username>
-	Then  Enter SalesForce password <password>
-	Then  Click on SalesForce Login button
-	Then  Navigate to HomeTab
-	Then  Navigate to ChatterTab
-	
-Examples:
-	| username	                  | password   |                                                   
-	| digvijay.dusane@aress1.com   | Aressqa123 |
-	
-@Test
+   
+ 	
+@Testfgbhf
 Scenario Outline: Add New Tab
 	
 	Given Enter SalesForce UserName <username>
 	Then  Enter SalesForce password <password>
 	Then  Click on SalesForce Login button
-	Then  Navigate to HomeTab
+#	Then  Navigate to HomeTab
 	Then  Navigate To All Tabs
 	Then  Click On Add A Tab Link
 	Then  Select Custom App Value <dropSelectCustomApp>
@@ -34,13 +23,13 @@ Examples:
 	| username	                  | password   | dropSelectTask  | dropSelectCustomApp   | selectTab  |                                                
 	| digvijay.dusane@aress1.com   | Aressqa123 | 2				 | Site.com              | Ideas      |
 	
-@Test
+@Testdfgdfgg
 Scenario Outline: Create New Task
 	
 	Given Enter SalesForce UserName <username>
 	Then  Enter SalesForce password <password>
 	Then  Click on SalesForce Login button
-	Then  Navigate to HomeTab
+#	Then  Navigate to HomeTab
 	Then  Click on Create New Menu
 	Then  Enter Subject <subject>
 	Then  Enter Due Date <date>
@@ -52,13 +41,13 @@ Examples:
 	| username	                  | password   | subject | date      | priorityDropDown | comments  |                                            
 	| digvijay.dusane@aress1.com   | Aressqa123 | Email   | 4/10/2018 | Normal           | Test123   |
 	
-@Test
+@Testdfgdg
 Scenario Outline: Create Campaign
 	
 	Given Enter SalesForce UserName <username>
 	Then  Enter SalesForce password <password>
 	Then  Click on SalesForce Login button
-	Then  Navigate to HomeTab
+#	Then  Navigate to HomeTab
 	Then  Navigate To All Tabs
 	Then  Click On Campaign Link
 	Then  Click On Create New View
@@ -83,13 +72,13 @@ Examples:
 
 
 
-@Test
+@Testsdfsd
 Scenario Outline: Create New Event
 
  	Given Enter SalesForce UserName <username>
  	Then  Enter SalesForce password <password>
  	Then  Click on SalesForce Login button
- 	Then  Navigate to HomeTab
+ #	Then  Navigate to HomeTab
  	Then  Click on Create New 
  	Then  Enter a subject in Text Field <ComboValue>
 	Then  Enter the Location <Location>
@@ -107,13 +96,13 @@ Scenario Outline: Create New Event
  	| digvijay.dusane@aress1.com  | Aressqa123 | Email         | 3/10/2019      | 12:10 AM  | 10/10/2019 | 5:30 PM | Pune     | asykswfdjfgfsdgytrbsdrfgybhretbrgurbvyib yunb4456yti4bny 5yiunb4i5y5 4o5byn5hkv5trjkhg | 5 hours       | 
  
 
-@Test1
+@Test1gfhnfnj
 Scenario Outline: Chatter Tab Messages 
 
 	Given Enter SalesForce UserName <username>
 	Then  Enter SalesForce password <password>
 	Then  Click on SalesForce Login button
-	Then  Navigate to ChatterTab
+#	Then  Navigate to ChatterTab
 	Then Click on Message Menu
 	Then Click on New Message
 	Then Enter the Mail id <To>
@@ -124,13 +113,13 @@ Examples:
     | username	                | password   | To                         | Message                               |                                           
 	| digvijay.dusane@aress1.com | Aressqa123 | nikita.malunjkar@aress.com | dgfakresjdhbvguytgjrehfdrdtgyj cdghyt |
  
-@Test1
+@Test1fsdaa
 Scenario Outline:  Chatter Tab Feed Link
 
 	Given Enter SalesForce UserName <username>
 	Then  Enter SalesForce password <password>
 	Then  Click on SalesForce Login button
-	Then  Navigate to ChatterTab
+#	Then  Navigate to ChatterTab
 	Then Click on Feed Link
 	Then Click on File Link
 	Then Click on Select a File from Sales Force link
@@ -145,13 +134,13 @@ Scenario Outline:  Chatter Tab Feed Link
     | username	                | password   | text    |                                                 
 	| digvijay.dusane@aress1.com | Aressqa123 | zdfjhys | 
  
-@Test1
+@Test1dfgfn
 Scenario Outline: Table Handling
 	
 	Given Enter SalesForce UserName <username>
 	Then Enter SalesForce password <password>
 	Then Click on SalesForce Login button
-	Then  Navigate to HomeTab
+#	Then  Navigate to HomeTab
 	Then Enter Search Content <search>
 	Then Click on Search Button Table
 	Then Click on Report

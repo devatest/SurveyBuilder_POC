@@ -51,8 +51,8 @@ public class StepBase
 				options.addArguments("--start-maximized");
 				DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 				capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-				//System.setProperty("webdriver.chrome.driver", ".\\src\\main\\java\\drivers\\chromedriver.exe");
-				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/resources/drivers/chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/resources/drivers/chromedriver22.exe");
+//				System.setProperty("webdriver.chrome.driver", "D:\\Automation\\Selenium Driver\\chromedriver.exe");
 				driver = new ChromeDriver(capabilities);
 				driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 				driver.manage().timeouts().pageLoadTimeout(90, TimeUnit.SECONDS);
